@@ -7,6 +7,6 @@ public class CreditPaymentService {
         rate = percent / 100 / M;
         ratio = (rate * Math.pow((1 + rate), time)) / (Math.pow((1 + rate), time) - 1);
         result = ratio * sum;
-        return (int)result;
+        return (int) result;
     }
 }
